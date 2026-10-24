@@ -2,10 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://sdeg1289gmailcom.github.io/BatteryGuardian/">
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sdeg1289 Open Source Projects</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --card-bg: #1a1a1e;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent: #3b82f6;
+            --accent-hover: #60a5fa;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+        }
+        .project-card {
+            background-color: var(--card-bg);
+            border: 1px solid #2a2a30;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 1.5rem;
+            text-align: left;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-2px);
+            border-color: #3a3a42;
+        }
+        .project-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0 0 0.5rem 0;
+        }
+        .project-desc {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 0 0 1.25rem 0;
+        }
+        .project-links {
+            display: flex;
+            gap: 16px;
+        }
+        .link-btn {
+            display: inline-flex;
+            align-items: center;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        .link-btn:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <p>Redirecting to <a href="https://sdeg1289gmailcom.github.io/BatteryGuardian/">our website</a>...</p>
+
+<div class="container">
+    <h1>sdeg1289</h1>
+    <p class="subtitle">Android Apps & Open Source Projects</p>
+
+    <!-- Project 1 -->
+    <div class="project-card">
+        <h2 class="project-title">🔋 Battery Guardian</h2>
+        <p class="project-desc">An advanced Android utility to track real battery aging, diagnose telemetry drivers, analyze historical usage trends, and manage stress milestones to optimize mobile hardware longevity.</p>
+        <div class="project-links">
+            <a class="link-btn" href="https://sdeg1289gmailcom.github.io/BatteryGuardian/">🌐 Web Dashboard</a>
+            <a class="link-btn" href="https://github.com/sdeg1289gmailcom/BatteryGuardian" target="_blank">💻 GitHub Repo</a>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <h2 class="project-title">📜 Pearls of Wisdom</h2>
+        <p class="project-desc">A dedicated mobile application bringing selected insights directly to your Android device. Review documentation, core architecture assets, and data compliance policies.</p>
+        <div class="project-links">
+            <a class="link-btn" href="https://github.io">🔒 Privacy Policy</a>
+            <a class="link-btn" href="https://github.com/sdeg1289gmailcom/PearlsOfWisdomPolicy" target="_blank">💻 GitHub Repo</a>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
